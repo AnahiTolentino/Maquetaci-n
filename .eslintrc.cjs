@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react/jsx-no-target-blank': 'off',
+    'no-unused-vars': '["error, {"vars": "local"}]',  //con ésta línea dentro de las reglas, nos deja de mostrar las palabras no usadas
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
